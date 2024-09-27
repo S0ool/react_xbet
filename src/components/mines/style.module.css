@@ -1,0 +1,28 @@
+.mine{
+    padding: 10px;
+    background: #001547;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .2s;
+}
+.mines{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    width: 20vw;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    color: white;
+    font-size: 25px;
+}
+.mine:hover{
+    scale: calc(1.1);
+}
